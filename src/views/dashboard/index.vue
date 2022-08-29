@@ -115,7 +115,7 @@ export default {
         url: "http://localhost:3000/delete"
       });
       if (JSON.parse(data).code === 0) {
-        this.$message.success("delete success");
+        this.$message.success("删除成功");
       }
     },
     handlePause() {
